@@ -16,7 +16,7 @@ Imagine that you distribute your Laravel project. It is awesome, useful and rema
 
 All you have to do is to add [Laravel-Setup-Wizard](https://github.com/mlanin/laravel-setup-wizard) package to your project!
 
-<img src="http://blog.lanin.me/wp-content/uploads/2015/11/setup-1024x528.png" alt="setup" width="960" height="495" class="alignnone size-large wp-image-138" />
+<img src="/uploads/setup.png" alt="setup" width="960" height="495" class="alignnone size-large" />
 
 <!-- more -->
 
