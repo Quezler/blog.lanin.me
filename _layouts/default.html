@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <!-- TOP RIGHT RIBBON: START COPYING HERE -->
+    <div class="github-fork-ribbon-wrapper right">
+      <div class="github-fork-ribbon">
+        <a href="https://github.com/mlanin">Fork me on GitHub</a>
+      </div>
+    </div>
+    <!-- TOP RIGHT RIBBON: END COPYING HERE -->
+
+    <div id="container">
+    {% include header.html %}
+
+    <div class="main-content">
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
+    </div>
+
+    <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+    <script type='text/javascript' src='/js/superfish.js?ver=1.4'></script>
+    <script type='text/javascript' src='/js/jquery.fitvids.js?ver=1.4'></script>
+    <script type='text/javascript' src='/js/jquery.flexslider.js?ver=1.4'></script>
+    <script type='text/javascript' src='/js/custom.js?ver=1.4'></script>
+
+    <!-- Place this tag right after the last button or just before your close body tag. -->
+	  <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+    <script id="dsq-count-scr" src="//maxim-lanin.disqus.com/count.js" async></script>
+  </body>
+
+</html>

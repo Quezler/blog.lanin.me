@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<article class="post type-post status-publish format-standard hentry category-laravel category-php et-no-image et-bg-layout-dark et-white-bg">
+	<div class="post-content clearfix">
+		<h2 class="title">{{ page.title }}</h2>
+
+		<p class="meta-info">Posted in
+			{% for category in page.categories %}
+			<strong>{{ category }}</strong>{% unless forloop.last %},{% endunless %}
+			{% endfor %}
+		</p> <!-- .meta-info -->
+		<div class="entry-content clearfix">
+		{{ content }}
+		</div>
+	</div> <!-- .post-content -->
+
+	<div class="meta-date">
+		<div class="meta-date-wrap">
+			<span class="meta-post-date">
+				<strong>{{ page.date | date: "%b" }}</strong>{{ page.date | date: "%d" }}</span>
+				<a href="{{ post.url }}">
+					<div class="meta-comments-count"><span aria-hidden="true" class="icon_comment_alt"></span>0</div>
+				</a>
+		</div>
+	</div>
+</article>
+
+<div id="disqus_thread"></div>
+<script>
+var disqus_config = function () {
+	this.page.url = "{{ page.url | prepend: site.url }}";  // Replace PAGE_URL with your page's canonical URL variable
+	this.page.identifier = "{{ page.url }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+(function() {  // DON'T EDIT BELOW THIS LINE
+	var d = document, s = d.createElement('script');
+	s.src = '//maxim-lanin.disqus.com/embed.js';
+	s.setAttribute('data-timestamp', +new Date());
+	(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>

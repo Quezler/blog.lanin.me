@@ -1,0 +1,17 @@
+# Site settings
+title: Maxim Lanin
+email: max@lanin.me
+description: Blog about web technologies
+keywords:
+  - blog
+  - php
+  - javascript
+  - laravel
+  - vuejs
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://blog.lanin.me"
+github_username:  mlanin
+
+# Build settings
+highlight: rouge
+markdown: kramdown
