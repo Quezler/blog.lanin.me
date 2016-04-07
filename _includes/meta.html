@@ -5,7 +5,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:title" content="{{ page.title }}" />
 <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
-<meta property="og:description" content="Guide your Laravel project customer through all installations steps he need to perform for a proper setup of your project." />
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 100, '...' }}{% endif %}" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:updated_time" content="{{ page.date | date: '%Y-%m-%d' }}T{{ page.date | date: '%T' }}+00:00" />
 <meta property="article:published_time" content="{{ page.date | date: '%Y-%m-%d' }}T{{ page.date | date: '%T' }}+00:00" />

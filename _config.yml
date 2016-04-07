@@ -1,7 +1,9 @@
 # Site settings
 title: Maxim Lanin
 email: max@lanin.me
-description: Blog about web technologies
+description: |
+  Blog about web technologies. Lots of tutorial about Laravel, Vuejs, HTML,
+  Javascript and other cool things.
 keywords:
   - blog
   - php

@@ -4,6 +4,7 @@ title: "Load Your JavaScript Library Asynchronously"
 date: 2016-04-07T17:06:44+03:00
 author: Maxim Lanin
 permalink: /load-your-javascript-library-asynchronously/
+description: Tutorial about how to load your javascript libraries asynchronously
 categories:
   - JavaScript
   - HTML5
