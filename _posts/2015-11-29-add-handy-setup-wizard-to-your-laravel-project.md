@@ -1,12 +1,9 @@
 ---
-id: 135
 title: Add handy setup wizard to your Laravel project
 date: 2015-11-29T11:27:24+00:00
 author: Maxim Lanin
 layout: post
 permalink: /add-handy-setup-wizard-to-your-laravel-project/
-dsq_thread_id:
-  - 4359977352
 categories:
   - Laravel
   - PHP
