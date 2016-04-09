@@ -125,7 +125,7 @@ var App = {
    *
    * @param  {Array} array History of calls
    */
-  _processPushes: function (array) {
+  _processHistory: function (array) {
     for (var i = 0; i < array.length; i++) {
       App.push(array[i])
     }
@@ -133,7 +133,7 @@ var App = {
 }
 
 if (typeof registeredActions !== 'undefined') {
-  App._processPushes(registeredActions)
+  App._processHistory(registeredActions)
 }
 ```
 
@@ -142,7 +142,7 @@ First we check if there was already `App` var registered. If it was, then saves 
 Then there is `App` itself with 2 extra methods:
 
 - `push` implements array's push calls;
-- `_processPushes` handles calls history.
+- `_processHistory` handles calls history.
 
 At last we check if there is saved history process it.
 
