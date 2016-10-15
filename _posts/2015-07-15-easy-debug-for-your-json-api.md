@@ -5,6 +5,7 @@ date: 2015-07-15T07:11:59+00:00
 author: Maxim Lanin
 layout: post
 permalink: /easy-debug-for-your-json-api/
+description: Perfect way to debug your JSON API on Laravel.
 dsq_thread_id:
   - 4285540293
 categories:
